@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Tanatswa Mbanje - Aspiring Software Engineer and Baking Enthusiast"
+    />
+    <title>Tanatswa Mbanje</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>Tanatswa Mbanje</h1>
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#expertise">Expertise</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="fade-in">
+      <h2>Hey there, I'm Tanatswa!</h2>
+      <h4>I code stuff sometimes.</h4>
+      <p>
+        I'm a Computer Science student based in Gweru Zimbabwe, passionate about
+        building practical, people-focused tech. I am working on projects like
+        an AI-powered mental health chatbot and solar-powered phone pouches, and
+        I love exploring how software can solve everyday problems and make a
+        real impact.
+      </p>
+      <a href="#portfolio" class="cta-button">View My Work</a>
+    </section>
+
+
+    <section id="about class="fade-in"">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img
+          src="./tanatswa.jpg"
+          alt="Picture of Tanatswa Mbanje"
+          class="about-photo"
+        />
+        <div class="about-text">
+          <p>
+            I am currently in my second year at Midlands State University.
+            Despite still exploring which field to specialize in, I am
+            particularly interested in Web Development and drawn to
+            Cybersecurity. I am passionate about creating technology that
+            bridges innovation and everyday life. The language I primarily use
+            with ease is Python. When I’m not coding or studying, you’ll find me
+            baking, playing piano, or sharing moments on TikTok. If I weren't
+            pursuing Computer Science, I’d be in culinary school.
+          </p>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="expertise" class="fade-in">
+      <h2>Areas of Interest</h2>
+      <ul>
+        <li>
+          <button class="accordion-btn">Software Development</button>
+          <div class="accordion-panel">
+            <p>
+              Building robust and scalable software solutions for real-world
+              problems.
+            </p>
+          </div>
+        </li>
+        <li>
+          <button class="accordion-btn">Full-Stack Projects</button>
+          <div class="accordion-panel">
+            <p>
+              Experience with both frontend and backend technologies for
+              complete web applications.
+            </p>
+          </div>
+        </li>
+        <li>
+          <button class="accordion-btn">Embedded Systems</button>
+          <div class="accordion-panel">
+            <p>
+              Working with hardware and software integration for smart devices.
+            </p>
+          </div>
+        </li>
+        <li>
+          <button class="accordion-btn">AI & Mental Health Tech</button>
+          <div class="accordion-panel">
+            <p>
+              Exploring artificial intelligence to support mental health and
+              wellbeing.
+            </p>
+          </div>
+        </li>
+        <li>
+          <button class="accordion-btn">Content Creation</button>
+          <div class="accordion-panel">
+            <p>Creating engaging digital content for various platforms.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    
+    <section id="skills" class="fade-in">
+      <h2>Skills</h2>
+      <ul>
+        <li class="skill">HTML, CSS, JavaScript</li>
+        <li class="skill">Python & Flask</li>
+        <li class="skill">React Native (beginner)</li>
+        <li class="skill">Git & GitHub</li>
+        <li class="skill">UI/UX basics with Figma</li>
+      </ul>
+    </section>
+
+   
+    <section id="portfolio" class="fade-in">
+      <h2>My Work</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>AI-Powered Psychological Health Chatbot</h3>
+          <p>
+            A mobile app developed using React Native and Flask that provides
+            mental health support through conversational AI and connects users
+            with therapists. (Ongoing project)
+          </p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Student Portfolio Website</h3>
+          <p>
+            A responsive web portfolio that highlights my computing skills,
+            academic background, and personal projects using HTML, CSS, and
+            JavaScript.
+          </p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="contact" class="fade-in">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/tanatswa-mbanje-2684202b6/"
+          target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i> 
+        </a>
+
+        <a href="https://github.com/tmba08" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        Built and designed by Tanatswa Alexandra Mbanje &copy; All rights
+        reserved.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
